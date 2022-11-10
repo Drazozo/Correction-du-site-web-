@@ -1,0 +1,25 @@
+Langages :
+PHP8.1 (PDO, OAuth + libs composer)
+JS (Front only)
+HTML/CSS (Bootstrap)
+
+Architecture : 
+/app : Templates et visuel
+    /templates : Pages web
+/public : Partie autorisée via le router
+/src : Dossier avec l'ensemble des scripts back-end
+/vendor : libs composer
+
+Connexion:
+Entrer email, création du code dans la bdd avec ip whitelist et connexion illimitée avec le code dans le lien
+Creation du user avec compte 
+Lien magique pour whitelist de l'ip
+
+RECAPTCHA:
+Key: 6LdJCTceAAAAAHY-kTn6iEl0AXdtD84NklA11b56
+SecretKey: 6LdJCTceAAAAAEwKF4ahaWJH6_i_79wLjAfz6qXG
+
+-----------------------------------------------------
+ERREURS:
+Si erreur headers already sent in.... 
+Il faut appeler la fonction et le php avant le header

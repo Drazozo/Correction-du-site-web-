@@ -1,0 +1,27 @@
+- Barre de navigation avec img, bouton impossible a cliquer : z-index//
+- Liens footer//
+- Logo + //titre header//
+- Questions les plus vues
+- Suppression token au bout de 10 mins + //après utilisation//
+- Sécurisation de la connexion//
+- Partie admin
+- Espace client rapide
+- Augmentation des sessions//
+
+
+---------------------------------------
+Problème ligne 139 de la condition dans login.class.php//
+
+- Tester système de question//
+- Finaliser système de contact
+
+FIX
+
+---------------------------------------
+Captcha
+Cron pour token inutilisés
+Fonction db
+Afficher questions publiées uniquement
+---------------------------------------
+FIX inscription //
+
